@@ -10,7 +10,7 @@ class AuthController extends Controller
     //menampilkan halaman login
     public function showLogin(){
         return view('login');
-    }=
+    }
     //memproses data login
     public function login(Request $request){
         $akun = $request->validate(
